@@ -22,9 +22,17 @@ This architecture diagram, illustrates a streamlined CI/CD pipeline for a .NET 8
 ---
 
 ### 3. .NET API Containerized CI/CD Pipeline
-This architecture diagram, illustrates a streamlined CI/CD pipeline for a .NET API, integrating GitLab as the source repository with Azure DevOps for automated deployment. The workflow details the end-to-end process, including connecting GitLab via tokens, utilizing Azure DevOps Classic Pipelines for build automation, and executing releases to an Azure VM target through dedicated Deployment Groups and IIS Web App deployment.
+TThis architecture diagram, demonstrates the end-to-end containerization and deployment process for a .NET API. The workflow details the configuration of Azure Portal resources, including Azure Container Registry (ACR) and Linux-based Web Apps. It further outlines the integration of Azure DevOps with unified pipelines to automate the build, push, and deployment stages, utilizing Docker-based tasks to manage image artifacts and environment variables.
 
 **Process Flow:**
 ![.NET API Containerized CI/CD Pipeline](CICD-Pipeline-Architecture-Azure-DevOps-And-Docker.png)
+
+---
+
+### 4. Azure Storage Queue Implementation Guide
+This reference, provides a comprehensive cheat sheet for configuring, publishing, and consuming messages within Azure Storage Queues. The guide details the necessary Azure Portal setup and highlights critical implementation patterns for .NET developers, such as enabling Base64 encoding for queue messages, using the Azure.Storage.Queues SDK, and implementing the essential receive-process-delete lifecycle to ensure robust message handling.
+
+**Process Flow:**
+![Azure Storage Queue Implementation Guide](azure_storage_queue_guide.png)
 
 ---
