@@ -36,3 +36,11 @@ This reference, provides a comprehensive cheat sheet for configuring, publishing
 ![Azure Storage Queue Implementation Guide](azure_storage_queue_guide.png)
 
 ---
+
+### 5. Azure VM Provisioning & IIS Configuration
+This process flow, details the end-to-end setup of an Azure Virtual Machine to host a .NET 8 API. It outlines the full lifecycle, from initial resource provisioning and networking configuration to installing IIS and the .NET 8 Hosting Bundle. Additionally, the guide includes a comparative breakdown mapping common AWS terminology to their Azure equivalents, providing a helpful reference for developers transitioning between these cloud environments.
+
+**Process Flow:**
+![Azure VM Provisioning & IIS Configuration](VM-and-IIS.png)
+
+---
