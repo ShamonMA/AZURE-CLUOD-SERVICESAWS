@@ -22,7 +22,7 @@ This architecture diagram, illustrates a streamlined CI/CD pipeline for a .NET 8
 ---
 
 ### 3. .NET API Containerized CI/CD Pipeline
-This architecture diagram, illustrates a streamlined CI/CD pipeline for a .NET 8 API, integrating GitLab as the source repository with Azure DevOps for automated deployment. The workflow details the end-to-end process, including connecting GitLab via tokens, utilizing Azure DevOps Classic Pipelines for build automation, and executing releases to an Azure VM target through dedicated Deployment Groups and IIS Web App deployment.
+This architecture diagram, illustrates a streamlined CI/CD pipeline for a .NET API, integrating GitLab as the source repository with Azure DevOps for automated deployment. The workflow details the end-to-end process, including connecting GitLab via tokens, utilizing Azure DevOps Classic Pipelines for build automation, and executing releases to an Azure VM target through dedicated Deployment Groups and IIS Web App deployment.
 
 **Process Flow:**
 ![.NET API Containerized CI/CD Pipeline](CICD-Pipeline-Architecture-Azure-DevOps-And-Docker.png)
