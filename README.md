@@ -9,6 +9,6 @@ This repository provides a collection of architectural blueprints and step-by-st
 This visual guide, outlines the end-to-end process for publishing a .NET-based Azure Function (Isolated Worker model) from Visual Studio to the cloud. It covers the essential configuration steps, including resource creation, handling environment variables in the Azure Portal, and configuring SQL firewall permissions to ensure secure connectivity.
 
 **Process Flow:**
-![Amazon SNS Setup Guide](SNS-Configuration-Roadmap.png)
+![Azure Function Deployment Workflow](AzureFunction_Method1.png)
 
 ---
